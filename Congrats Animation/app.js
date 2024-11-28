@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     const numberOfStars = 20;
 
     for (let i = 0; i < numberOfStars; i++) {
@@ -9,14 +9,14 @@ $(function() {
     animateBlobs();
 });
 
-$('.congrats').click(function() {
+$('.congrats').click(function () {
     reset();
     animateText();
     animateBlobs();
 });
 
 function reset() {
-    $('.blob').each(function() {
+    $('.blob').each(function () {
         gsap.set($(this), { x: 0, y: 0, opacity: 1 });
     });
 
@@ -37,7 +37,7 @@ function animateBlobs() {
     const xSeed = _.random(350, 380);
     const ySeed = _.random(120, 170);
 
-    $('.blob').each(function() {
+    $('.blob').each(function () {
         const $blob = $(this);
         const speed = _.random(1, 5);
         const rotation = _.random(5, 100);
@@ -53,10 +53,10 @@ function animateBlobs() {
             rotation: rotation,
             scale: scale,
             ease: "power1.out",
-            onStart: function() {
+            onStart: function () {
                 $blob.css('display', 'block');
             },
-            onComplete: function() {
+            onComplete: function () {
                 $blob.css('display', 'none');
             }
         });
