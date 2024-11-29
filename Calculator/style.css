@@ -59,4 +59,27 @@
     float: left;
   }
   
+  #display:hover {
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #bcbd95;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  #display:active {
+    top: 5px; /* Removed unnecessary semicolon */
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .operator {
+    background-color: #cee9ea;
+    position: relative;
+  }
+  
+  .operator:hover {
+    background-color: #cee9ea;
+    box-shadow: none;
+  }
+  
   
