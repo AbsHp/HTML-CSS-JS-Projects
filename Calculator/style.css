@@ -38,4 +38,25 @@
     margin-bottom: 15px;
   }
   
+  input:hover {
+    border: 0; /* Fixed unnecessary `solid#000` */
+    color: #495069;
+    background-color: #fff;
+    box-shadow: 0 4px #b0d2cf;
+  }
+  
+  input:active {
+    top: 4px; /* Corrected syntax for `active` */
+    box-shadow: none;
+  }
+  
+  #display {
+    width: 265px; /* Corrected the syntax */
+    max-width: 270px; /* Fixed missing unit */
+    font-size: 50px;
+    text-align: right;
+    background-color: #bcbd95;
+    float: left;
+  }
+  
   
