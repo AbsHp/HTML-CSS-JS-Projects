@@ -82,4 +82,26 @@
     box-shadow: none;
   }
   
+  #clear {
+    float: left;
+    display: block;
+    background-color: #ff9fa8;
+  }
   
+  #clear:hover {
+    background-color: #f297A0;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #cc7f86;
+  }
+  
+  #clear:active {
+    top: 4px;
+    background-color: #f297A0;
+    box-shadow: none;
+  }
+  
+  h3 {
+    text-align: center;
+    color: white;
+    font-size: 109%;
+  }
