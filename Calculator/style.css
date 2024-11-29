@@ -1,14 +1,15 @@
 #neelam {
     width: 296px;
-    border-bottom: 2px solid #85C1E9; /* Fixed incorrect syntax */
+    border-bottom: 2px solid #85C1E9;
+    /* Fixed incorrect syntax */
     background-color: #85C1E9;
-  }
-  
-  body {
+}
+
+body {
     background-color: #9B59B6;
-  }
-  
-  table {
+}
+
+table {
     margin: auto;
     background-color: #ff4561;
     width: 295px;
@@ -18,9 +19,9 @@
     border-radius: 4px;
     padding-right: 10px;
     border-color: #ff4561;
-  }
-  
-  input {
+}
+
+input {
     outline: 0;
     position: relative;
     left: 5px;
@@ -36,72 +37,77 @@
     font-size: 20px;
     box-shadow: 0 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px;
-  }
-  
-  input:hover {
-    border: 0; /* Fixed unnecessary `solid#000` */
+}
+
+input:hover {
+    border: 0;
+    /* Fixed unnecessary `solid#000` */
     color: #495069;
     background-color: #fff;
     box-shadow: 0 4px #b0d2cf;
-  }
-  
-  input:active {
-    top: 4px; /* Corrected syntax for `active` */
+}
+
+input:active {
+    top: 4px;
+    /* Corrected syntax for `active` */
     box-shadow: none;
-  }
-  
-  #display {
-    width: 265px; /* Corrected the syntax */
-    max-width: 270px; /* Fixed missing unit */
+}
+
+#display {
+    width: 265px;
+    /* Corrected the syntax */
+    max-width: 270px;
+    /* Fixed missing unit */
     font-size: 50px;
     text-align: right;
     background-color: #bcbd95;
     float: left;
-  }
-  
-  #display:hover {
+}
+
+#display:hover {
     width: 270px;
     font-size: 26px;
     text-align: right;
     background-color: #bcbd95;
     box-shadow: 0 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  #display:active {
-    top: 5px; /* Removed unnecessary semicolon */
+}
+
+#display:active {
+    top: 5px;
+    /* Removed unnecessary semicolon */
     box-shadow: 0 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .operator {
+}
+
+.operator {
     background-color: #cee9ea;
     position: relative;
-  }
-  
-  .operator:hover {
+}
+
+.operator:hover {
     background-color: #cee9ea;
     box-shadow: none;
-  }
-  
-  #clear {
+}
+
+#clear {
     float: left;
     display: block;
     background-color: #ff9fa8;
-  }
-  
-  #clear:hover {
+}
+
+#clear:hover {
     background-color: #f297A0;
     margin-bottom: 15px;
     box-shadow: 0 4px #cc7f86;
-  }
-  
-  #clear:active {
+}
+
+#clear:active {
     top: 4px;
     background-color: #f297A0;
     box-shadow: none;
-  }
-  
-  h3 {
+}
+
+h3 {
     text-align: center;
     color: white;
     font-size: 109%;
-  }
+}
