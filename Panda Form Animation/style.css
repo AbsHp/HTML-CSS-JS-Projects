@@ -217,4 +217,31 @@
   .paw-r {
     right: 10em;
   }
-  
+  .paw-l:before,
+  .paw-r:before {
+    position: absolute;
+    content: "";
+    background-color: #ffffff;
+    height: 1.37em;
+    width: 1.75em;
+    top: 1.12em;
+    left: 0.55em;
+    border-radius: 1.56em 1.56em 0.6em 0.6em;
+  }
+  .paw-l:after,
+  .paw-r:after {
+    position: absolute;
+    content: "";
+    background-color: #ffffff;
+    height: 0.5em;
+    width: 0.5em;
+    border-radius: 50%;
+    top: 0.31em;
+    left: 1.12em;
+    box-shadow: 0.87em 0.37em #ffffff, -0.87em 0.37em #ffffff;
+  }
+  @media screen and (max-width: 500px) {
+    .container {
+      font-size: 14px;
+    }
+  }
