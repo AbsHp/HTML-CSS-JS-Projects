@@ -30,4 +30,30 @@ let normalEyeStyle = () => {
           transform: rotate(0deg)
       `;
   };
+  usernameRef.addEventListener("focus", () => {
+    eyeL.style.cssText = `
+      left: 0.75em;
+      top: 1.12em;  
+    `;
+    eyeR.style.cssText = `
+      right: 0.75em;
+      top: 1.12em;
+    `;
+    normalHandStyle();
+  });
+  passwordRef.addEventListener("focus", () => {
+    handL.style.cssText = `
+          height: 6.56em;
+          top: 3.87em;
+          left: 11.75em;
+          transform: rotate(-155deg);    
+      `;
+    handR.style.cssText = `
+      height: 6.56em;
+      top: 3.87em;
+      right: 11.75em;
+      transform: rotate(155deg);
+    `;
+    normalEyeStyle();
+  });
   
