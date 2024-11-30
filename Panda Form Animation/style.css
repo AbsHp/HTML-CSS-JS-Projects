@@ -93,4 +93,55 @@
     transform: rotate(38deg);
     right: 10.75em;
   }
+  .blush-l,
+  .blush-r {
+    background-color: #ff8bb1;
+    height: 1em;
+    width: 1.37em;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+  }
+  .blush-l {
+    transform: rotate(25deg);
+    left: 1em;
+  }
+  .blush-r {
+    transform: rotate(-25deg);
+    right: 1em;
+  }
+  .eye-l,
+  .eye-r {
+    background-color: #3f3554;
+    height: 2.18em;
+    width: 2em;
+    border-radius: 2em;
+    position: absolute;
+    top: 2.18em;
+  }
+  .eye-l {
+    left: 1.37em;
+    transform: rotate(-20deg);
+  }
+  .eye-r {
+    right: 1.37em;
+    transform: rotate(20deg);
+  }
+  .eyeball-l,
+  .eyeball-r {
+    height: 0.6em;
+    width: 0.6em;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.6em;
+    top: 0.6em;
+    transition: 1s all;
+  }
+  .eyeball-l {
+    transform: rotate(20deg);
+  }
+  .eyeball-r {
+    transform: rotate(-20deg);
+  }
   
