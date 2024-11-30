@@ -56,4 +56,10 @@ let normalEyeStyle = () => {
     `;
     normalEyeStyle();
   });
-  
+  document.addEventListener("click", (e) => {
+    let clickedElem = e.target;
+    if (clickedElem != usernameRef && clickedElem != passwordRef) {
+      normalEyeStyle();
+      normalHandStyle();
+    }
+  });
