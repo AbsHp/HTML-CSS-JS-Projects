@@ -16,4 +16,18 @@ let normalEyeStyle = () => {
     `;
   };
   
+  let normalHandStyle = () => {
+    handL.style.cssText = `
+          height: 2.81em;
+          top:8.4em;
+          left:7.5em;
+          transform: rotate(0deg);
+      `;
+    handR.style.cssText = `
+          height: 2.81em;
+          top: 8.4em;
+          right: 7.5em;
+          transform: rotate(0deg)
+      `;
+  };
   
