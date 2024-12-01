@@ -64,3 +64,33 @@ body {
     animation-direction: alternate;
 }
 
+.landscape-1 {
+    position: absolute;
+    bottom: 119px;
+    left: -7px;
+    width: 250px;
+    height: 70px;
+    background-color: #9ec2e6;
+    transform: rotate(9deg);
+}
+
+.landscape-2 {
+    position: absolute;
+    bottom: 90px;
+    right: -7px;
+    width: 350px;
+    height: 90px;
+    background-color: #72aee6;
+    transform: rotate(-6deg);
+}
+
+.landscape-3 {
+    position: absolute;
+    bottom: 65px;
+    left: -4px;
+    width: 390px;
+    height: 80px;
+    background-color: #4f94d4;
+    transform: rotate(5deg);
+}
+
