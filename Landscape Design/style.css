@@ -114,3 +114,36 @@ body {
     transform: rotate(5deg);
 }
 
+.tree-1 {
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    height: 15px;
+    width: 20px;
+    background-color: #59a5d8;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.tree-2 {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    height: 20px;
+    width: 13px;
+    background-color: #4f94d4;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.tree-3 {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    height: 20px;
+    width: 18px;
+    background-color: #386fa4;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+}
+
