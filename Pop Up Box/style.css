@@ -73,4 +73,7 @@ height: 100vh;
             cursor: pointer;
             box-shadow: 0px 6px #556b88;
             transition: all .4s;
-            
+        }
+        label:hover{
+        box-shadow: 0px 0px 30px #788daa83;
+        }
