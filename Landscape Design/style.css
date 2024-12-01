@@ -191,3 +191,30 @@ body {
     box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
 }
 
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+}
+
+.s1 {
+    top: 50px;
+    left: 17px;
+}
+
+.s2 {
+    top: 80px;
+    left: 150px;
+}
+
+.s3 {
+    top: 100px;
+    left: 30px;
+}
+
+.s4 {
+    top: 200px;
+    left: 250px;
+}
+
