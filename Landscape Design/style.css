@@ -94,3 +94,23 @@ body {
     transform: rotate(5deg);
 }
 
+.landscape-4 {
+    position: absolute;
+    bottom: 50px;
+    left: -4px;
+    width: 400px;
+    height: 70px;
+    background-color: #135e96;
+    transform: rotate(-4deg);
+}
+
+.landscape-5 {
+    position: absolute;
+    bottom: -10px;
+    left: -6px;
+    width: 370px;
+    height: 90px;
+    background-color: #043959;
+    transform: rotate(5deg);
+}
+
