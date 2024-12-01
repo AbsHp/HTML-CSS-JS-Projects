@@ -147,3 +147,25 @@ body {
     box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
 }
 
+.tree-4 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    height: 20px;
+    width: 15px;
+    background-color: #386fa4;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.tree-5 {
+    position: absolute;
+    top: 69%;
+    left: 80%;
+    height: 30px;
+    width: 25px;
+    background-color: #133c55;
+    clip-path: polygon(50% 0%, 22% 100%, 75% 100%);
+    box-shadow: 2px 0 2px 4px rgba(0, 0, 0, .1);
+}
+
