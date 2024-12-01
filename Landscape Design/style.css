@@ -22,3 +22,45 @@ body {
     overflow: hidden;
 }
 
+.disc-1 {
+    position: absolute;
+    top: 24%;
+    left: 1%;
+    width: 359px;
+    height: 358px;
+    background: #72aee6;
+    opacity: 0.2;
+    border-radius: 50%;
+    animation: glow infinite 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+.disc-2 {
+    position: absolute;
+    top: 35%;
+    left: 16%;
+    width: 260px;
+    height: 260px;
+    background: #9ec2e6;
+    opacity: 0.4;
+    border-radius: 50%;
+    animation: glow infinite 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+.disc-3 {
+    position: absolute;
+    top: 43%;
+    left: 27%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #f0f6fc;
+    opacity: 0.6;
+    animation: glow infinite 2s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
