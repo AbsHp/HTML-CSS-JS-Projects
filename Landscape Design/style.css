@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #0a4b78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 367px;
+    height: 500px;
+    position: relative;
+    background: linear-gradient(to bottom, #01263a 0%, #4f94d4 70%, #c5d9ed 100%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3), 0 10px 10px rgba(0, 0, 0, .3);
+    border-radius: 80px;
+    overflow: hidden;
+}
+
