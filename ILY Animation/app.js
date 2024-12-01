@@ -5,7 +5,7 @@ canvas.height = window.innerHeight;
 
 // Initialize the GL context
 var gl = canvas.getContext('webgl');
-if(!gl){
+if (!gl) {
   console.error("Unable to initialize WebGL.");
 }
 
@@ -174,22 +174,22 @@ void main(){
 
 window.addEventListener('resize', onWindowResize, false);
 
-function onWindowResize(){
-  canvas.width  = window.innerWidth;
+function onWindowResize() {
+  canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
-    gl.viewport(0, 0, canvas.width, canvas.height);
+  gl.viewport(0, 0, canvas.width, canvas.height);
   gl.uniform1f(widthHandle, window.innerWidth);
   gl.uniform1f(heightHandle, window.innerHeight);
 }
 
 
 //Compile shader and combine with source
-function compileShader(shaderSource, shaderType){
+function compileShader(shaderSource, shaderType) {
   var shader = gl.createShader(shaderType);
   gl.shaderSource(shader, shaderSource);
   gl.compileShader(shader);
-  if(!gl.getShaderParameter(shader, gl.COMPILE_STATUS)){
-      throw "Shader compile failed with: " + gl.getShaderInfoLog(shader);
+  if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+    throw "Shader compile failed with: " + gl.getShaderInfoLog(shader);
   }
   return shader;
 }
@@ -198,7 +198,7 @@ function compileShader(shaderSource, shaderType){
 function getAttribLocation(program, name) {
   var attributeLocation = gl.getAttribLocation(program, name);
   if (attributeLocation === -1) {
-      throw 'Cannot find attribute' + name + '.';
+    throw 'Cannot find attribute' + name + '.';
   }
   return attributeLocation;
 }
@@ -206,7 +206,7 @@ function getAttribLocation(program, name) {
 function getUniformLocation(program, name) {
   var attributeLocation = gl.getUniformLocation(program, name);
   if (attributeLocation === -1) {
-      throw 'Cannot find uniform ' + name + '.';
+    throw 'Cannot find uniform ' + name + '.';
   }
   return attributeLocation;
 }
@@ -227,10 +227,10 @@ gl.useProgram(program);
 
 //Set up rectangle covering entire canvas 
 var vertexData = new Float32Array([
-  -1.0,  1.0,     // top left
+  -1.0, 1.0,     // top left
   -1.0, -1.0,     // bottom left
-   1.0,  1.0,     // top right
-   1.0, -1.0,     // bottom right
+  1.0, 1.0,     // top right
+  1.0, -1.0,     // bottom right
 ]);
 
 //Create vertex buffer
@@ -248,7 +248,7 @@ gl.vertexAttribPointer(positionHandle,
   false,         // don't normalize values
   2 * 4,         // two 4 byte float components per vertex (32 bit float is 4 bytes)
   0                 // how many bytes inside the buffer to start from
-  );
+);
 
 //Set uniform handle
 var timeHandle = getUniformLocation(program, 'time');
@@ -261,14 +261,14 @@ gl.uniform1f(heightHandle, window.innerHeight);
 var lastFrame = Date.now();
 var thisFrame;
 
-function draw(){
-    
-  //Update time
-    thisFrame = Date.now();
-  time += (thisFrame - lastFrame)/1000;    
-    lastFrame = thisFrame;
+function draw() {
 
-    //Send uniforms to program
+  //Update time
+  thisFrame = Date.now();
+  time += (thisFrame - lastFrame) / 1000;
+  lastFrame = thisFrame;
+
+  //Send uniforms to program
   gl.uniform1f(timeHandle, time);
   //Draw a triangle strip connecting vertices 0-4
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
