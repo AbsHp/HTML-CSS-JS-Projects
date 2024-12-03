@@ -3,4 +3,19 @@ h1, h2, h3, h4, h5 {
     margin: 0 0 1rem 0;
   }
   
+  h1 {
+    font-size: 3rem;
+    line-height: 125%;
+  }
+  
+  hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: black 1px solid;
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+  
   
