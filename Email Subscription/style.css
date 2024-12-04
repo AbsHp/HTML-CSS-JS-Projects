@@ -31,4 +31,26 @@
     margin-bottom: 0.8em;
   }
   
+  .container {
+    max-width: 400px;
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em 1em 0 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .img__container {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+  }
+  
   
