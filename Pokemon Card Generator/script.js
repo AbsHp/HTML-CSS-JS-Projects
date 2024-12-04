@@ -15,27 +15,27 @@ const typeColor = {
     psychic: "#a29bfe",
     rock: "#2d3436",
     water: "#0190FF",
-  };
-  const url = " https://pokeapi.co/api/v2/pokemon/";
-  const card = document.getElementById("card");
-  const btn = document.getElementById("btn");
-  
-  let getPokeData = () => {
+};
+const url = " https://pokeapi.co/api/v2/pokemon/";
+const card = document.getElementById("card");
+const btn = document.getElementById("btn");
+
+let getPokeData = () => {
     // Generate a random number between 1 and 150
     let id = Math.floor(Math.random() * 150) + 1;
     // Combine the pokeapi url with pokemon id
     const finalUrl = url + id;
     // Fetch generated URL
     fetch(finalUrl)
-      .then((response) => response.json())
-      .then((data) => {
-        generateCard(data);
-      });
-  };
-  
-  //Generate Card
-  
-  let generateCard = (data) => {
+        .then((response) => response.json())
+        .then((data) => {
+            generateCard(data);
+        });
+};
+
+//Generate Card
+
+let generateCard = (data) => {
     // Get necessary data and assign it to variables
     console.log(data);
     const hp = data.stats[0].base_stat;
@@ -44,7 +44,7 @@ const typeColor = {
     const statAttack = data.stats[1].base_stat;
     const statDefense = data.stats[2].base_stat;
     const statSpeed = data.stats[5].base_stat;
-  
+
     // Set themeColor based on pokemon type
     const themeColor = typeColor[data.types[0].type.name];
     console.log(themeColor);
@@ -75,20 +75,20 @@ const typeColor = {
     `;
     appendTypes(data.types);
     styleCard(themeColor);
-  };
-  let appendTypes = (types) => {
+};
+let appendTypes = (types) => {
     types.forEach((item) => {
-      let span = document.createElement("SPAN");
-      span.textContent = item.type.name;
-      document.querySelector(".types").appendChild(span);
+        let span = document.createElement("SPAN");
+        span.textContent = item.type.name;
+        document.querySelector(".types").appendChild(span);
     });
-  };
-  let styleCard = (color) => {
+};
+let styleCard = (color) => {
     card.style.background = `radial-gradient(circle at 50% 0%, ${color} 36%, #ffffff 36%)`;
     card.querySelectorAll(".types span").forEach((typeColor) => {
-      typeColor.style.backgroundColor = color;
+        typeColor.style.backgroundColor = color;
     });
-  };
-  
-  btn.addEventListener("click", getPokeData);
-  window.addEventListener("load", getPokeData);
+};
+
+btn.addEventListener("click", getPokeData);
+window.addEventListener("load", getPokeData);
