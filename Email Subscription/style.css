@@ -81,4 +81,16 @@
     margin-bottom: 1em;
   }
   
+  ::-webkit-input-placeholder {
+    color: #111127;
+  }
+  
+  :-ms-input-placeholder {
+    color: #111127;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #111127;
+  }
+  
   
