@@ -7,9 +7,9 @@
     display: -ms-grid;
     display: grid;
     place-items: center;
-  }
-  
-  .container {
+}
+
+.container {
     background-color: #fff;
     padding: 1em;
     border-radius: 1em;
@@ -19,25 +19,25 @@
     place-items: center;
     -webkit-box-shadow: 0px 17px 34px -20px #f55951;
     box-shadow: 0px 17px 34px -20px #f55951;
-  }
-  
-  .title {
+}
+
+.title {
     font-size: 1.6rem;
     font-weight: 700;
-  }
-  
-  .text {
+}
+
+.text {
     font-size: 1rem;
     margin-bottom: 0.8em;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 400px;
     overflow: hidden;
     padding: 0;
-  }
-  
-  .img {
+}
+
+.img {
     width: 100%;
     height: auto;
     border-radius: 1em 1em 0 0;
@@ -45,59 +45,59 @@
     object-fit: cover;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
-  
-  .img__container {
+}
+
+.img__container {
     height: 200px;
     overflow: hidden;
     margin-bottom: 1.5em;
-  }
-  
-  .title {
+}
+
+.title {
     margin-bottom: 0.9em;
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     font-size: 0.9rem;
     text-transform: uppercase;
     margin-bottom: 0.5em;
     font-weight: 700;
-  }
-  
-  .content {
+}
+
+.content {
     display: -ms-grid;
     display: grid;
     place-items: center;
     padding: 0 2em;
     margin-bottom: 1.8em;
-  }
-  
-  .mail {
+}
+
+.mail {
     padding: 0.5em 0 0.5em 1.5em;
     line-height: 3;
     width: 100%;
     border: 1px solid #d9d9d9;
     border-radius: 0.5em;
     margin-bottom: 1em;
-  }
-  
-  ::-webkit-input-placeholder {
+}
+
+::-webkit-input-placeholder {
     color: #111127;
-  }
-  
-  :-ms-input-placeholder {
+}
+
+:-ms-input-placeholder {
     color: #111127;
-  }
-  
-  ::-ms-input-placeholder {
+}
+
+::-ms-input-placeholder {
     color: #111127;
-  }
-  
-  ::placeholder {
+}
+
+::placeholder {
     color: #111127;
-  }
-  
-  .subscribe {
+}
+
+.subscribe {
     color: #fff;
     font-size: 1.3rem;
     font-weight: 700;
@@ -108,10 +108,10 @@
     border-radius: 0.5em;
     width: 100%;
     margin-bottom: 1.3em;
-  }
-  
-  .text {
+}
+
+.text {
     font-size: 0.9rem;
     width: 90%;
     text-align: center;
-  }
+}
