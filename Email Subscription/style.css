@@ -93,4 +93,25 @@
     color: #111127;
   }
   
+  ::placeholder {
+    color: #111127;
+  }
   
+  .subscribe {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #f55951;
+    padding: 0.9em 0;
+    display: inline-block;
+    border: none;
+    border-radius: 0.5em;
+    width: 100%;
+    margin-bottom: 1.3em;
+  }
+  
+  .text {
+    font-size: 0.9rem;
+    width: 90%;
+    text-align: center;
+  }
