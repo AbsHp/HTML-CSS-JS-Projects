@@ -53,4 +53,23 @@
     margin-bottom: 1.5em;
   }
   
+  .title {
+    margin-bottom: 0.9em;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+  }
+  
+  .content {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    padding: 0 2em;
+    margin-bottom: 1.8em;
+  }
+  
   
