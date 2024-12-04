@@ -76,4 +76,19 @@ const typeColor = {
     appendTypes(data.types);
     styleCard(themeColor);
   };
+  let appendTypes = (types) => {
+    types.forEach((item) => {
+      let span = document.createElement("SPAN");
+      span.textContent = item.type.name;
+      document.querySelector(".types").appendChild(span);
+    });
+  };
+  let styleCard = (color) => {
+    card.style.background = `radial-gradient(circle at 50% 0%, ${color} 36%, #ffffff 36%)`;
+    card.querySelectorAll(".types span").forEach((typeColor) => {
+      typeColor.style.backgroundColor = color;
+    });
+  };
   
+  btn.addEventListener("click", getPokeData);
+  window.addEventListener("load", getPokeData);
