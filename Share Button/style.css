@@ -61,4 +61,12 @@
             transform: scale(1.5);
             border-radius: 50%;
             }
-            
+            .links{
+                position: absolute;
+                z-index: -10;
+                }
+                .container input:checked ~ .links{
+                transition: all 4s;
+                z-index: 50;
+                }
+                
