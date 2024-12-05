@@ -1,24 +1,28 @@
 body {
     font-family: "open sans", sans-serif;
     background: #f1f1f1;
-  }
-  #content {
+}
+
+#content {
     margin: 40px auto;
     text-align: center;
     width: 600px;
-  }
-  #content h1 {
+}
+
+#content h1 {
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 40px 0;
     font-size: 25px;
     line-height: 30px;
-  }
-  .circle {
+}
+
+.circle {
     width: 200px;
     height: 200px;
     line-height: 200px;
-    border-radius: 50%; /* the magic */
+    border-radius: 50%;
+    /* the magic */
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     text-align: center;
@@ -27,18 +31,21 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 auto 40px;
-  }
-  
-  .blue {
-    background-color: #3498db;  
-  }
-  .green {
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.green {
     background-color: #16a085;
-  }
-  .red {
+}
+
+.red {
     background-color: #e74c3c;
-  }
-  .feedback {
+}
+
+.feedback {
     font-size: 14px;
     color: #b1b1b1;
-  }
+}
