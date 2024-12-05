@@ -29,4 +29,16 @@ body {
     margin: 0 auto 40px;
   }
   
-  
+  .blue {
+    background-color: #3498db;  
+  }
+  .green {
+    background-color: #16a085;
+  }
+  .red {
+    background-color: #e74c3c;
+  }
+  .feedback {
+    font-size: 14px;
+    color: #b1b1b1;
+  }
