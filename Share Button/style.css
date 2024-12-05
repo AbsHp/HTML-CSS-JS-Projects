@@ -69,4 +69,20 @@
                 transition: all 4s;
                 z-index: 50;
                 }
-                
+                .links a{
+                    position: absolute;
+                    width: 40px;
+                    height: 40px;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: rgba(0, 0, 0, 0.226);
+                    border-radius: 50%;
+                    cursor: pointer;
+                    color: white;
+                    transition: all .4s;
+                    transition-delay: calc(var(--i)* 0.1s);
+                    backdrop-filter: blur(5px);
+                    }
+                    
