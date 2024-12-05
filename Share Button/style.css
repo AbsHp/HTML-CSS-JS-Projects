@@ -85,4 +85,18 @@
                     transition-delay: calc(var(--i)* 0.1s);
                     backdrop-filter: blur(5px);
                     }
-                    
+                    .links a i{
+                        font-size: 1.5em;
+                        }
+                        .container input:checked ~ .links a:nth-child(1){
+                        transform: translateY(-130%);
+                        }
+                        .container input:checked ~ .links a:nth-child(2){
+                        transform: translateX(130%);
+                        }
+                        .container input:checked ~ .links a:nth-child(3){
+                        transform: translateY(130%);
+                        }
+                        .container input:checked ~ .links a:nth-child(4){
+                        transform: translateX(-130%);
+                        }
