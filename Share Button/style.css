@@ -22,4 +22,43 @@
         -webkit-appearance: none;
         cursor: pointer;
         }
-        
+        .container input::before{
+            content: "\f1e0";
+            position: absolute;
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 700;
+            font-size: 1.5rem;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #9733EE;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            .container input:checked::before{
+            content: "\f00d";
+            font-size: 2rem;
+            }
+            .container input::after{
+            content: "";
+            position: absolute;
+            top: -35%;
+            left: -35%;
+            width: 120%;
+            height: 120%;
+            z-index: -10;
+            border: 10px solid #9733EE;
+            box-shadow: 0 0 30px #9733ee4f;
+            border-radius: 0%;
+            transform: scale(.5);
+            transition: all .4s;
+            }
+            .container input:checked::after{
+            transform: scale(1.5);
+            border-radius: 50%;
+            }
+            
