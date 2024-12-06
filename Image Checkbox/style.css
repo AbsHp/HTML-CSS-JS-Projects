@@ -1,28 +1,29 @@
-html, body {
+html,
+body {
     height: 100%;
-  }
-  
-  body {
+}
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     background: orange;
-  }
-  
-  label {
+}
+
+label {
     cursor: pointer;
-  }
-  
-  img {
+}
+
+img {
     box-shadow: 0 0 0 10px #FFF0;
     transition: box-shadow 0.1s;
-  }
-  
-  input {
+}
+
+input {
     display: none;
-  }
-  
-  input:checked + img {
+}
+
+input:checked+img {
     box-shadow: 0 0 0 10px #FFF;
     transition: box-shadow 0.11s;
-  }
+}
