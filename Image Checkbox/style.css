@@ -9,4 +9,20 @@ html, body {
     background: orange;
   }
   
+  label {
+    cursor: pointer;
+  }
   
+  img {
+    box-shadow: 0 0 0 10px #FFF0;
+    transition: box-shadow 0.1s;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  input:checked + img {
+    box-shadow: 0 0 0 10px #FFF;
+    transition: box-shadow 0.11s;
+  }
