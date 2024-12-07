@@ -37,4 +37,16 @@ if (data.length === 1) {
         </div>
         </article>`;
         })
+        .join("");
+        const startSlider = (type) => {
+        // get all three slides active,last next
+        const active = document.querySelector(".active");
+        const last = document.querySelector(".last");
+        let next = active.nextElementSibling;
+        if (!next) {
+        next = container.firstElementChild;
+        }
+        active.classList.remove(["active"]);
+        last.classList.remove(["last"]);
+        next.classList.remove(["next"]);
         
