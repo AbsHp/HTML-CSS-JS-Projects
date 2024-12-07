@@ -201,4 +201,20 @@ Variables
                                 transform: scale(1.1);
                                 opacity: 0.8;
                                 }
-                                
+                                .quote-icon {
+                                    font-size: 3rem;
+                                    margin-top: 2rem;
+                                    color: var(--clr-primary-5);
+                                    }
+                                    /* set buttons */
+                                    .btn {
+                                    position: absolute;
+                                    top: 175px;
+                                    background: var(--clr-grey-5);
+                                    color: var(--clr-white);
+                                    padding: 0.25rem 0.35rem;
+                                    border-radius: 0.25rem;
+                                    border: transparent;
+                                    cursor: pointer;
+                                    }
+                                    
