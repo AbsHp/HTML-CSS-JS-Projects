@@ -125,4 +125,24 @@ Variables
                 line-height: 1;
                 }
                 }
-                
+                .section-center {
+                    width: 90vw;
+                    margin: 0 auto;
+                    max-width: 1170px;
+                    }
+                    @media screen and (min-width: 992px) {
+                    .section-center {
+                    width: 95vw;
+                    }
+                    }
+                    main {
+                    min-height: 100vh;
+                    display: grid;
+                    place-items: center;
+                    }
+                    /*
+                    ===============
+                    Slider Styles
+                    ===============
+                    */
+                    
