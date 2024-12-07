@@ -185,4 +185,20 @@ Variables
                             letter-spacing: var(--spacing);
                             margin: 0.5rem 0;
                             }
-                            
+                            .title {
+                                margin-bottom: 1.25rem;
+                                letter-spacing: 2px;
+                                text-transform: capitalize;
+                                }
+                                .text {
+                                color: var(--clr-grey-5);
+                                line-height: 1.8;
+                                max-width: 35em;
+                                margin: 0 auto;
+                                letter-spacing: 1px;
+                                }
+                                .icon:hover {
+                                transform: scale(1.1);
+                                opacity: 0.8;
+                                }
+                                
