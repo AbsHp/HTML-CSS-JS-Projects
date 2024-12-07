@@ -254,4 +254,13 @@ Variables
                                             transition: all 0.3s ease-in-out;
                                             opacity: 0;
                                             }
-                                            
+                                            .slide.active {
+                                                opacity: 1;
+                                                transform: translateX(0);
+                                                }
+                                                .slide.next {
+                                                transform: translateX(100%);
+                                                }
+                                                .slide.last {
+                                                transform: translateX(-100%);
+                                                }
