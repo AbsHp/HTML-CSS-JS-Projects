@@ -145,4 +145,27 @@ Variables
                     Slider Styles
                     ===============
                     */
-                    
+                    section {
+                        width: 85vw;
+                        max-width: var(--fixed-width);
+                        margin: 0 auto;
+                        margin-top: 5rem;
+                        text-align: center;
+                        padding: 1rem 0;
+                        /* set relative for buttons */
+                        position: relative;
+                        }
+                        .reviews {
+                        margin-bottom: 4rem;
+                        }
+                        .reviews h2 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        }
+                        .reviews span {
+                        font-size: 0.85em;
+                        color: var(--clr-primary-5);
+                        margin-right: 1rem;
+                        }
+                        
