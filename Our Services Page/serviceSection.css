@@ -1,0 +1,15 @@
+.service-grid {
+    background: #fcfcfc;
+  }
+   .service-title h4 {
+    position: relative;
+    display: inline-block;
+  }
+  .service-icon {
+    position: relative;
+  }
+  .service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+  
