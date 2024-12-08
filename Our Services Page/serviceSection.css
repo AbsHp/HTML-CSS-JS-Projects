@@ -69,4 +69,17 @@
   .service-wrap:hover h4,.service-wrap:hover p{
     color: #fff;
   }
+  .service-wrap h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  }
+  .service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
   
+  }
