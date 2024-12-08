@@ -37,4 +37,22 @@
     margin-bottom: 20px;
     display: inline-block;
   }
+  .service-wrap {
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+      position: relative;
+  }
+  
+  .service-wrap p{
+      position: relative;
+  }
+  
+  .service-wrap:hover {
+    background-image: url(https://i.ibb.co/mykzQks/services1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  
   
