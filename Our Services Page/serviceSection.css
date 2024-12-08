@@ -55,4 +55,18 @@
     transition: all .5s;
   }
   
+  .service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+  }
+  
+  .service-wrap:hover h4,.service-wrap:hover p{
+    color: #fff;
+  }
   
