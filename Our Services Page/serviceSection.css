@@ -31,4 +31,10 @@
     margin-bottom: 20px;
       position: relative;
   }
+  .service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
   
