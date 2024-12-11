@@ -137,4 +137,10 @@
                     transform: translateX(360%);
                     line-height: 1.3;
                     }
-                    
+                    .page#p1 .icon {
+                        height: 220px;
+                        }
+                        .page#p1 .icon {
+                        transform: translateX(0) !important;
+                        }
+                        
