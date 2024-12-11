@@ -123,4 +123,18 @@
                 .hint a:hover {
                 color: #FFF;
                 }
-                
+                .page .icon {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 10%;
+                    left: 0;
+                    width: 270px;
+                    height: 170px;
+                    margin: auto;
+                    text-align: center;
+                    font-size: 80px;
+                    transform: translateX(360%);
+                    line-height: 1.3;
+                    }
+                    
