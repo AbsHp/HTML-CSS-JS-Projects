@@ -38,4 +38,27 @@
     position: fixed;
     z-index: 1;
     }
-    
+    #t1:target .page#p1 {
+        transform: translateX(0);
+        }
+        #t2:target .page#p2 {
+        transform: translateX(-90%);
+        }
+        #t3:target .page#p3 {
+        transform: translateX(-190%);
+        }
+        #t4:target .page#p4 {
+        transform: translateX(-290%);
+        }
+        #t2:target .page#p1,
+        #t3:target .page#p1,
+        #t4:target .page#p1 {
+        background: black;
+        }
+        #t2:target .page#p1 .icon,
+        #t3:target .page#p1 .icon,
+        #t4:target .page#p1 .icon {
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        }
+        
