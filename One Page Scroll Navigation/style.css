@@ -143,4 +143,25 @@
                         .page#p1 .icon {
                         transform: translateX(0) !important;
                         }
-                        
+                        #t2:target .page#p2 .icon {
+                            transform: translateX(0) !important;
+                            transition-delay: 1s;
+                            }
+                            #t3:target .page#p3 .icon {
+                            transform: translateX(0) !important;
+                            transition-delay: 1s;
+                            }
+                            #t4:target .page#p4 .icon {
+                            transform: translateX(0) !important;
+                            transition-delay: 1s;
+                            }
+                            .credit{
+                            position: absolute;
+                            bottom: 0;
+                            width: 100%;
+                            text-align: center;
+                            font-size: 10px;
+                            }
+                            .credit a {
+                            color: #fff
+                            }
