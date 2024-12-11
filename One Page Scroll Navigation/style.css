@@ -13,4 +13,29 @@
     background: #374046;
     overflow: hidden;
     }
+    section {
+    width:400%;
+    }
+    .page {
+    position: absolute;
+    }
+    #p1 {
+    left: 0;
+    }
+    #p2 {
+    left: 100%;
+    background: #FF5722;
+    }
+    #p3 {
+    left: 200%;
+    background: #593C1F;
+    }
+    #p4 {
+    left: 300%;
+    background: deeppink;
+    }
+    ul {
+    position: fixed;
+    z-index: 1;
+    }
     
