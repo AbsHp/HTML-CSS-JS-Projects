@@ -1,0 +1,16 @@
+* {
+    transition: all 500ms ease-out;
+    -webkit-transition: all 500ms ease-out;
+    }
+    html, body, section, .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+    -webkit-transition: all 1s cubic-bezier(.5, -0.005, 0.2, 1) !important;
+    color: #fff;
+    background: #374046;
+    overflow: hidden;
+    }
+    
