@@ -106,4 +106,21 @@
             text-decoration: none;
             font-family: open sans, sans-serif;
             }
-            
+            .title, .hint {
+                font-family: open sans, sans-serif;
+                display: block;
+                }
+                .title {
+                font-size: 38px;
+                }
+                .hint {
+                font-size: 13px;
+                }
+                .hint a {
+                color: #EFFF06;
+                transition: all 250ms easet-out;
+                }
+                .hint a:hover {
+                color: #FFF;
+                }
+                
