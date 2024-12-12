@@ -10,4 +10,16 @@
     width:100vw;
     flex-wrap:wrap;
     }
-    
+    .item{
+        height:270px;
+        width:200px;
+        background-color:red;
+        margin: 20px;
+        border-radius: 10px;
+        }
+        .img{
+        width:200px;
+        height:200px;
+        border-radius: 10px 10px 0px 0px ;
+        }
+        
