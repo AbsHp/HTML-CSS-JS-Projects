@@ -22,4 +22,20 @@
         height:200px;
         border-radius: 10px 10px 0px 0px ;
         }
-        
+        .item1 .img{
+            background-image:url("cake.jpg");
+            background-size: cover;
+            }
+            .item2 .img{
+            background-image:url("burger.jpg");
+            background-size: cover;
+            }
+            .item3 .img{
+            background-image:url("shake.jpg");
+            background-size: cover;
+            }
+            .item4 .img{
+            background-image: url("icecream.jpg");
+            background-size: cover;
+            }
+            
