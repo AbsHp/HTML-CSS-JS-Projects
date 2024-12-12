@@ -38,4 +38,26 @@
             background-image: url("icecream.jpg");
             background-size: cover;
             }
-            
+            .TITLE{
+                background-color:aqua;
+                height:20px;
+                width:200px;
+                text-align:center;
+                }
+                .price{
+                background-color:sandybrown;
+                height:20px;
+                width:200px;
+                }
+                .buy{
+                background-color: yellow;
+                width:fit-content;
+                text-align: center;
+                margin: 0px auto;
+                padding:6px 15px;
+                }
+                .item:hover{
+                transform:scale(1.1);
+                transition-duration: 0.5s;
+                box-shadow: 7px 10px rgba(0,0,0,0.2);
+                }
