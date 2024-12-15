@@ -33,4 +33,20 @@
                 font-weight: bold;
                 letter-spacing: 4px;
                 }
-                
+                #msg {
+                    width: 250px;
+                    margin-left: 5%;
+                    margin-top: 3%;
+                    background: transparent;
+                    }
+                    #submit {
+                    padding: 8px 15px;
+                    background-color: #0a64ce;
+                    color: white;
+                    margin: 3% 25%;
+                    }
+                    select option,selected{
+                    color: black;
+                    font-size: 30px;
+                    }
+                    
