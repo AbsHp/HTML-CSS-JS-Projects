@@ -67,3 +67,11 @@ select {
     color: #ffff;
 }
 
+input#mobno {
+    margin-left: 2%;
+}
+
+::placeholder {
+    color: #ffff;
+    font-size: 20px;
+}
