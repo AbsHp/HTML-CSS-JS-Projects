@@ -118,3 +118,14 @@ body {
     cursor: pointer;
     transition: 0.2s;
   }
+  .login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #6a679e;
+  outline: none;
+}
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #7875b5;
+}
