@@ -71,3 +71,17 @@ body {
     right: 50px;
     border-radius: 60px;
   }
+  .login {
+    width: 320px;
+    padding: 30px;
+    padding-top: 156px;
+  }
+  .login__field {
+    padding: 20px 0px;
+    position: relative;
+  }
+  .login__icon {
+    position: absolute;
+    top: 30px;
+    color: #7875b5;
+  }
