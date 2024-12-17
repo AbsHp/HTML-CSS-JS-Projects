@@ -143,3 +143,12 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .social-login__icon {
+    padding: 20px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px #7875b5;
+  }
+  .social-login__icon:hover {
+    transform: scale(1.5);
+  }
