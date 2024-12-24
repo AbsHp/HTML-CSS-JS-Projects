@@ -80,4 +80,17 @@ body{
                     .site-footer {
                     padding-bottom: 0;
                     }
-                    
+                    .site-footer .copyright-text,
+                    .site-footer .social-icons {
+                    text-align: center;
+                    }
+                    }
+                    .social-icons {
+                    padding-left: 0;
+                    margin-bottom: 0;
+                    list-style: none;
+                    }
+                    .social-icons li {
+                    display: inline-block;
+                    margin-bottom: 4px;
+                    }
