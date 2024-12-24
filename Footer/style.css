@@ -23,4 +23,21 @@ body{
     border-top-color: #bbb;
     opacity: 0.5;
     }
-    
+    .site-footer hr.small {
+        margin: 20px 0;
+        }
+        .site-footer h6 {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        letter-spacing: 2px;
+        }
+        .site-footer a {
+        color: #737373;
+        }
+        .site-footer a:hover {
+        color: #fff;
+        text-decoration: none;
+        }
+        
