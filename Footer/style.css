@@ -94,3 +94,19 @@ body{
                     display: inline-block;
                     margin-bottom: 4px;
                     }
+                    .social-icons a {
+                        background-color: #eceeef;
+                        color: #818a91;
+                        font-size: 16px;
+                        display: inline-block;
+                        line-height: 44px;
+                        width: 44px;
+                        height: 44px;
+                        text-align: center;
+                        margin-right: 8px;
+                        border-radius: 100%;
+                        -webkit-transition: all 0.2s linear;
+                        -o-transition: all 0.2s linear;
+                        transition: all 0.2s linear;
+                        }
+                        
