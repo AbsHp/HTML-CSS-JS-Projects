@@ -40,4 +40,14 @@ body{
         color: #fff;
         text-decoration: none;
         }
-        
+        .footer-links {
+            padding-left: 0;
+            list-style: none;
+            }
+            .footer-links li {
+            display: block;
+            }
+            .footer-links a {
+            color: #737373;
+            }
+            
