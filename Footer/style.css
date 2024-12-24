@@ -50,4 +50,10 @@ body{
             .footer-links a {
             color: #737373;
             }
+            .footer-links a:active,
+            .footer-links a:focus,
+            .footer-links a:hover {
+            color: #fff;
+            text-decoration: none;
+            }
             
