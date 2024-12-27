@@ -135,4 +135,30 @@ img {
       }
     }
     
-    
+    .magazine-layout {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-row-gap: 2rem;
+      }
+      
+      .magazine-column {
+        padding: 0 1.5rem;
+        grid-column: span 5;
+        
+        @media (min-width: 1200px) {
+          grid-column: span 1;
+          border-right: 1px solid #CCC;
+          &:last-child {
+            border-right: none;
+          }
+        }
+        
+        &:nth-child(2) {
+          @media (min-width: 1200px) {
+            grid-column: span 2;
+          }
+        }
+      }
+      
+      
