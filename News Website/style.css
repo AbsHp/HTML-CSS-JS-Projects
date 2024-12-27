@@ -268,4 +268,37 @@ img {
           }
         }
         
-        .
+        .article-category {
+            font-weight: 500;
+            margin-bottom: 1rem;
+            display: block;
+            svg {
+              max-width: 1.5rem;
+              margin-right: .5rem;
+              vertical-align: middle;
+            }
+            
+          }
+          
+          .article-podcast-player {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            margin-top: 1.25rem;
+          }
+          
+          .podcast-play-button {
+            width: 2.25rem;
+            height: 2.25rem;
+            border-radius: 12px;
+            border: 0;
+            background-color: #000;
+            margin-right: .5rem;
+            svg {
+              max-width: 1rem;
+              max-height: 1rem;
+              fill: #FFF;
+            }
+          }
+          
+          
