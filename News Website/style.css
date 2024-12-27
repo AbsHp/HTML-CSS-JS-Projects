@@ -45,4 +45,23 @@ img {
     }
   }
   
+  .header-middle {
+    display: none;
+    @media (min-width: 1200px) {
+        display: block;
+    }
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav {
+    display: none;
+    @media (min-width: 1200px) {
+        display: block;
+    }
+  }
+  
   
