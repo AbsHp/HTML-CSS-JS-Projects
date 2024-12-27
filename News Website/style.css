@@ -301,4 +301,20 @@ img {
             }
           }
           
+          .podcast-progression {
+            flex: 1;
+            height: 8px;
+            border-radius: 99em;
+            background-color: #D9D4CD;
+            background-image: linear-gradient(to right, #F99970 30%, #D9D4CD 30%, #D9D4CD 100%)
+          }
           
+          .podcast-time {
+            font-weight: 500;
+            font-size: 1.125rem;
+            margin-left: .5rem;
+          }
+          
+          :focus {
+            outline: 0;
+          }
