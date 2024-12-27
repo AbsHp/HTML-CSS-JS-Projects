@@ -223,4 +223,29 @@ img {
         }
       }
       
+      .article-excerpt,
+      .article-creditation {
+        font-size: 1.125rem;
+        line-height: 1.4;
+        p + p {
+          margin-top: 1.5rem;
+        }
+      }
       
+      .article-author {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+      }
+      
+      .article-author-img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 12px;
+        background-color: #323232;
+        overflow: hidden;
+        background-blend-mode: multiply;
+        img {
+        }
+      
+        
