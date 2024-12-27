@@ -180,4 +180,47 @@ img {
         text-decoration: none;
       }
       
-      .
+      .article-title {
+        font-family: "Fraunces", serif;
+        font-weight: 900;
+        line-height: 1.25;
+        color: #000;
+      
+        &--large {
+          font-size: 2rem;
+          & + * {
+            margin-top: 1.5rem;
+          }
+        }
+      
+        &--medium {
+          font-size: 1.5rem;
+          & + * {
+            margin-top: 0.75rem;
+          }
+        }
+      
+        &--small {
+          font-size: 1.25rem;
+          & + * {
+            margin-top: 0.75rem;
+          }
+        }
+      }
+      
+      .article-link {
+        color: inherit;
+      }
+      
+      .mark {
+        background-color: #fabea1;
+        &--secondary {
+          background-color: #c2dddf;
+        }
+        
+        &--tertiary {
+          background-color: #F8E177;
+        }
+      }
+      
+      
