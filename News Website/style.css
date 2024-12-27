@@ -256,8 +256,6 @@ img {
     overflow: hidden;
     background-blend-mode: multiply;
 
-    img {}
-
     &+.article-author-info {
         margin-left: 0.5rem;
     }
