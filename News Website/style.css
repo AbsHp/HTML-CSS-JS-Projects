@@ -248,4 +248,24 @@ img {
         img {
         }
       
+        & + .article-author-info {
+            margin-left: 0.5rem;
+          }
+        }
         
+        .article-author-info {
+          line-height: 1.375;
+          dl {
+            margin-top: 0.25em;
+          }
+        
+          dt {
+            font-weight: 600;
+          }
+        
+          dd {
+            font-size: 0.875em;
+          }
+        }
+        
+        .
