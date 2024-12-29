@@ -67,4 +67,20 @@ body{
                     .container .card:hover .face.face2{
                     transform: translateY(0);
                     }
-                    
+                    .container .card .face.face2 .content p{
+                        margin: 0;
+                        padding: 0;
+                        }
+                        .container .card .face.face2 .content a{
+                        margin: 15px 0 0;
+                        display: inline-block;
+                        text-decoration: none;
+                        font-weight: 900;
+                        color: #333;
+                        padding: 5px;
+                        border: 1px solid #333;
+                        }
+                        .container .card .face.face2 .content a:hover{
+                        background: #333;
+                        color: #fff;
+                        }
