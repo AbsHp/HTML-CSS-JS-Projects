@@ -23,4 +23,21 @@ body{
         height: 200px;
         transition: 0.5s;
         }
-        
+        .container .card .face.face1{
+            position: relative;
+            background: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            transform: translateY(100px);
+            }
+            .container .card:hover .face.face1{
+            background: #ff0057;
+            transform: translateY(0);
+            }
+            .container .card .face.face1 .content{
+            opacity: 0.2;
+            transition: 0.5s;
+            }
+            
