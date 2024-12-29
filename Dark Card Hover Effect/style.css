@@ -8,4 +8,19 @@ body{
     align-items: center;
     font-family: consolas;
     }
-    
+    .container{
+        width: 1000px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        }
+        .container .card{
+        position: relative;
+        cursor: pointer;
+        }
+        .container .card .face{
+        width: 300px;
+        height: 200px;
+        transition: 0.5s;
+        }
+        
