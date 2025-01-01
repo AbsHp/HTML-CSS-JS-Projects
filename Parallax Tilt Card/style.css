@@ -57,4 +57,15 @@ html {
             box-shadow: 0 0 3rem .5rem hsla(0, 0%, 0%, .2);
             transition: transform .6s 1s;
             }
+            .container::before,
+            .container::after {
+            content: "";
+            width: 2rem;
+            height: 2rem;
+            border: 1px solid #fff;
+            position: absolute;
+            z-index: 2;
+            opacity: .3;
+            transition: .3s;
+            }
             
