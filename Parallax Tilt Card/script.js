@@ -22,4 +22,29 @@ class parallaxTiltEffect {
     X = ((offsetX - (this.w/2)) / 3) / 3;
     Y = (-(offsetY - (this.h/2)) / 3) / 3;
     }
-    
+    else if (this.tiltEffect === "normal") {
+        X = (-(offsetX - (this.w/2)) / 3) / 3;
+        Y = ((offsetY - (this.h/2)) / 3) / 3;
+        }
+        this.setProperty('--rY', X.toFixed(2));
+        this.setProperty('--rX', Y.toFixed(2));
+        this.setProperty('--bY', (80 - (X/4).toFixed(2)) + '%');
+        this.setProperty('--bX', (50 - (Y/4).toFixed(2)) + '%');
+        }
+        handleMouseEnter() {
+        this.mouseOnComponent = true;
+        this.container.classList.add("container--active");
+        }
+        handleMouseLeave() {
+        this.mouseOnComponent = false;
+        this.defaultStates();
+        }
+        defaultStates() {
+        this.container.classList.remove("container--active");
+        this.setProperty('--rY', 0);
+        this.setProperty('--rX', 0);
+        this.setProperty('--bY', '80%');
+        this.setProperty('--bX', '50%');
+        }
+        setProperty(p, v) {
+        
