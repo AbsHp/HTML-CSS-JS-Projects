@@ -47,4 +47,12 @@ class parallaxTiltEffect {
         this.setProperty('--bX', '50%');
         }
         setProperty(p, v) {
+            return this.container.style.setProperty(p, v);
+        }
+        init() {
+        this.element.addEventListener('mousemove', this.handleMouseMove);
+        this.element.addEventListener('mouseenter', this.handleMouseEnter);
+        this.element.addEventListener('mouseleave', this.handleMouseLeave);
+        }
+        }
         
