@@ -55,4 +55,16 @@ class parallaxTiltEffect {
         this.element.addEventListener('mouseleave', this.handleMouseLeave);
         }
         }
-        
+        const $ = e => document.querySelector(e);
+        const wrap1 = new parallaxTiltEffect({
+        element: $('.wrap--1'),
+        tiltEffect: 'reverse'
+        });
+        const wrap2 = new parallaxTiltEffect({
+        element: $('.wrap--2'),
+        tiltEffect: 'normal'
+        });
+        const wrap3 = new parallaxTiltEffect({
+        element: $('.wrap--3'),
+        tiltEffect: 'reverse'
+        });
