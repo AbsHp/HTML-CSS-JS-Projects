@@ -37,4 +37,16 @@ html {
         transform: perspective(100rem);
         cursor: pointer;
         }
-        
+        .container {
+            --rX: 0;
+            --rY: 0;
+            --bX: 50%;
+            --bY: 80%;
+            width: 30rem;
+            height: 36rem;
+            border: 1px solid var(--background-color);
+            border-radius: 1.6rem;
+            padding: 4rem;
+            display: flex;
+            align-items: flex-end;
+            
