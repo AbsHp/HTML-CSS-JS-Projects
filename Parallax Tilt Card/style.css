@@ -17,4 +17,24 @@ html {
     background: var(--background-color);
     text-align: center;
     }
-    
+    h1 {
+        font-size: 3.2rem;
+        padding-top: 2rem;
+        }
+        h1+p {
+        font-size: 1.8rem;
+        padding: 2rem 0 3rem;
+        }
+        .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+        .wrap {
+        margin: 2rem;
+        transform-style: preserve-3d;
+        transform: perspective(100rem);
+        cursor: pointer;
+        }
+        
